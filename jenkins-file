@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 this is my first project
+=======
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo "Hello from Jenkins!"
+            }
+        }
+    }
+}
+>>>>>>> 710acb0 (initial commit with jenkins-file)
