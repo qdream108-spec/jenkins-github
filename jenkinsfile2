@@ -1,1 +1,6 @@
-this is my new file created from bash
+def main():
+    print("Hello from Jenkins + Python!")
+
+if __name__ == "__main__":
+    main()
+
